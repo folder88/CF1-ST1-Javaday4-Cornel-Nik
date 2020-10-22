@@ -15,4 +15,8 @@ public class Person {
 
         System.out.println(this.firsName + " " + this.lastName);
     }
+    public void toUpperCase(){
+
+        System.out.println(this.firsName + " " + this.lastName.toUpperCase());
+    }
 }
